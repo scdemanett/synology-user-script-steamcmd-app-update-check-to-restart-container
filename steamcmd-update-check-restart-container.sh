@@ -1,11 +1,11 @@
 #!/bin/bash
 
 # Define the path to the container
-CONTAINER_PATH=""
+CONTAINER_PATH="volume1/docker"
 
 # Define the appID and container name
-APP_ID=""
-CONTAINER_NAME=""
+APP_ID="556450"
+CONTAINER_NAME="the-forest"
 
 # Path to the appmanifest file
 MANIFEST_PATH="/${CONTAINER_PATH}/${CONTAINER_NAME}/gamefiles/steamapps/appmanifest_${APP_ID}.acf"
