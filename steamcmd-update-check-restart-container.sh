@@ -1,11 +1,11 @@
 #!/bin/bash
 
 # Define the path to the container
-CONTAINER_PATH="volume1/docker"
+CONTAINER_PATH=""
 
 # Define the appID and container name
-APP_ID="343050"
-CONTAINER_NAME="dont-starve-together"
+APP_ID=""
+CONTAINER_NAME=""
 
 # Path to the appmanifest file
 MANIFEST_PATH="/${CONTAINER_PATH}/${CONTAINER_NAME}/gamefiles/steamapps/appmanifest_${APP_ID}.acf"
